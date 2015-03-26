@@ -1,0 +1,63 @@
+.dmkt_bri_recipeindex {
+  margin-left:-10px;
+  list-style-type: none;
+  clear:both;
+  overflow:hidden;
+}
+
+.dmkt_bri_recipeindex li {
+  display: inline;
+  vertical-align: top;
+}
+
+.dmkt_bri_recipecard {
+  display: inline-block;
+  text-align: center;
+
+  max-width:125px;
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  background-color: #111;
+
+  margin: 0.5em;
+
+  border: 1px ridge #111;
+  -webkit-border-radius: 15px;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius: 15px;
+  -moz-border-radius-bottomleft: 0;
+  border-radius: 15px;
+  border-bottom-left-radius: 0;
+
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.dmkt_bri_recipecard:hover {
+  margin-right: 0.2em;
+  margin-bottom: 0.2em;
+  box-shadow: none;
+}
+.dmkt_bri_recipelink {
+  border: none;
+  text-decoration: none;
+}
+
+strong.dmkt_bri_recipeheading {
+  background-color: white;
+  display: block;
+  padding-right: 25px;
+  padding-left: 5px;
+  max-height: 40px;
+  text-overflow: ellipsis;
+  font-size: 0.8em;
+}
+
+img.dmkt_bri_recipethumbnail {
+  max-height: 100px;
+  width: auto;
+  margin: auto;
+  display: block;
+  padding:0px;
+}
